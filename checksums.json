@@ -1,0 +1,9 @@
+{
+  "LICENSE": "d32239bcb673463ab874e80d47fae504",
+  "README.md": "95e7b417ae198588b7a72912f6b0b588",
+  "Rakefile": "ea057d5a33d76396bfd286e1d8f534f5",
+  "manifests/init.pp": "d0d86608a8d8c2a1825c29c7d0d76428",
+  "manifests/plugin.pp": "59cddaf216ab9527c881f02d9b86ef19",
+  "metadata.json": "0f4454e92257ecbf2787b79f2536e546",
+  "templates/configuration.yml.erb": "a539cfbb32217d2058b7e52338094114"
+}

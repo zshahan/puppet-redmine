@@ -1,0 +1,25 @@
+production:
+  email_delivery:
+    delivery_method: :<%= @mail_delivery_method %>
+    smtp_settings:
+<% unless @mail_starttls.nil? -%>
+      enable_starttls_auto: <%= @mail_starttls ? 'true' : 'false' %>
+<% end -%>
+<% if @mail_address -%>
+      address: <%= @mail_address %>
+<% end -%>
+<% if @mail_port -%>
+      port: <%= @mail_port %>
+<% end -%>
+<% if @mail_domain -%>
+      domain: <%= @mail_domain %>
+<% end -%>
+<% if @mail_authentication -%>
+      authentication: :<%= @mail_authentication %>
+<% end -%>
+<% if @mail_username -%>
+      user_name: <%= @mail_username %>
+<% end -%>
+<% if @mail_password -%>
+      password: <%= @mail_password %>
+<% end -%>

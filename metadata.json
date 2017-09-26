@@ -1,0 +1,17 @@
+{
+  "name": "velaluqa-redmine",
+  "version": "1.0.1",
+  "author": "Arthur Leonard Andersen",
+  "summary": "Puppet Redmine Module",
+  "license": "GPLv3",
+  "source": "https://github.com/velaluqa/puppet-redmine",
+  "project_page": "https://github.com/leoc/puppet-redmine/",
+  "issues_url": "https://github.com/velaluqa/puppet-redmine/issues",
+  "description": "Module to install Redmine using puppet",
+  "dependencies": [
+    {
+      "name": "puppetlabs/vcsrepo",
+      "version_requirement": ">=0.2.0"
+    }
+  ]
+}
